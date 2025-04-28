@@ -1,50 +1,58 @@
 body {
-    margin: 0;
-    font-family: 'Roboto Mono', monospace;
-    background-color: #1a1a1a;
-    color: #e0e0e0;
-  }
-  
-  header {
-    background-color: #333;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 3px solid #f0c808;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: #f0c808;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 40px;
-    border-bottom: 1px solid #555;
-  }
-  
-  .projeto {
-    background-color: #2a2a2a;
-    padding: 20px;
-    margin-top: 20px;
-    border-left: 5px solid #f0c808;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    border-top: 3px solid #f0c808;
-    font-size: 0.8em;
-  }
-  
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #f0c808;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #f0c808;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  border-bottom: 1px solid #555;
+}
+
+.projeto {
+  background-color: #2a2a2a;
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 5px solid #f0c808;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  border-top: 3px solid #f0c808;
+  font-size: 0.8em;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f0c808;
+  margin-bottom: 15px;
+}
